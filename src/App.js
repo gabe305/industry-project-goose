@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <HomeHeader isSpring={isSpring} setIsSpring={setIsSpring} />
       <HomeHero isSpring={isSpring} />
-      <Collection />
+      <Collection isSpring={isSpring} />
       <HomeFooter />
     </div>
   );
