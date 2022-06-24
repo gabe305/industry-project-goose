@@ -6,7 +6,7 @@ function HomeHero({ isSpring }) {
     if(isSpring) {
         return ( 
     //     //    <img className='hero' src={spring} />
-            <section className="hero">
+            <section className="hero hero--spring">
                 <h1 className="hero__heading">HUMANATURE</h1>
                 <h2 className="hero__subheading">Lightweight</h2>
                 <h2 className="hero__subheading">Sustainable</h2>
@@ -15,8 +15,9 @@ function HomeHero({ isSpring }) {
         )
     } else {
         return(
-            <></>
-    //         // <img className='hero' src={winter} />
+            <>
+                <img className='hero hero--winter' src={winter} />
+            </>
         )
     }
 
