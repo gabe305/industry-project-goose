@@ -1,0 +1,155 @@
+@use "../../partials/colors.scss";
+
+.footer {
+  background-color: colors.$primary-dark;
+  color: colors.$primary-light;
+  width: 100%;
+  border-bottom: 1px solid colors.$primary-light;
+
+  &__top {
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid white;
+  }
+
+  &__subheader {
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+
+  &__subheader-right {
+    margin-bottom: 2rem;
+  }
+
+  &__text-columns {
+    display: flex;
+  }
+
+  &__column {
+    width: 10rem;
+  }
+
+  &__help {
+    margin-right: 2rem;
+  }
+
+  &__discover {
+    width: 23rem;
+  }
+
+  &__discover-img {
+    margin-bottom: 1rem;
+  }
+
+  &__discover-text {
+    margin-bottom: 0;
+  }
+
+  &__find-a-store {
+    display: flex;
+
+    &--img {
+      padding-top: 0.2rem;
+      padding-left: 0.25rem;
+    }
+  }
+
+  &__right {
+    display: flex;
+  }
+
+  &__email {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  &__email-input {
+    height: 2rem;
+    width: 10rem;
+    background-color: colors.$primary-dark;
+    border: none;
+    border-bottom: 1px solid colors.$primary-light;
+    background: url("../../assets/Icons/chevron.svg") no-repeat;
+    background-position: 100% 50%;
+  }
+
+  &__email-input::placeholder {
+    color: colors.$primary-light;
+  }
+
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  &__icon-single {
+    height: 2.25rem;
+    width: 2.25rem;
+    border: 1px solid colors.$primary-light;
+    border-radius: 50%;
+  }
+
+  &__facebook {
+    background: url("../../assets/Icons/facebook-icon.svg");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__twitter {
+    background: url("../../assets/Icons/twitter-icon.svg");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__instagram {
+    background: url("../../assets/Icons/instagram-icon.svg");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__youtube {
+    background: url("../../assets/Icons/youtube-icon.svg");
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__feedback-button {
+    border: 1px solid colors.$primary-light;
+    padding: 0.5rem 2rem;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  &__bottom-container {
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__copyright {
+    display: flex;
+    align-items: center;
+  }
+
+  &__copy-right-text {
+    margin: auto 0;
+    line-height: 0.1rem;
+  }
+  &__links-container {
+    display: flex;
+  }
+}

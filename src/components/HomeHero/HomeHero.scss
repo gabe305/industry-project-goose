@@ -1,0 +1,33 @@
+
+
+.hero {
+    color: white;
+    position: relative;
+    height: 576px;
+
+    &--spring {
+        background: url(../../assets/Images/spring.png) no-repeat;
+        width: 100%;
+    }
+
+    &--winter {
+        width: 100%;
+    }
+
+    &::before {
+        position: absolute;
+        top: 0;
+
+    }
+    &__heading {
+
+    }
+
+    &__subheading {
+
+    }
+
+    &__btn {
+
+    }
+}
