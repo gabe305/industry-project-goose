@@ -61,7 +61,7 @@
     align-items: center;
     justify-content: space-between;
     height: 50px;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 
     &:hover {
       cursor: pointer;
@@ -71,4 +71,24 @@
 
 li:hover {
   cursor: pointer;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.box:first-child > nav {
+  margin-right: auto;
+}
+.box:last-child > nav {
+  margin-left: auto;
+}
+
+.header__nav-left {
+  justify-content: flex-start;
+}
+
+.header__nav-right {
+  justify-content: flex-end;
 }
