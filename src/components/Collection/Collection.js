@@ -5,9 +5,14 @@ import img2 from "../../assets/Images/col2.png";
 import img3 from "../../assets/Images/col3.png";
 import img4 from "../../assets/Images/col4.png";
 import img5 from "../../assets/Images/col5.png";
+import wint1 from "../../assets/Images/wint1.png";
+import wint2 from "../../assets/Images/wint2.png";
+import wint3 from "../../assets/Images/wint3.png";
+import wint4 from "../../assets/Images/wint4.png";
+import wint5 from "../../assets/Images/wint5.png";
 import { MdChevronLeft, MdChevronRight } from "react-icons/md";
 
-function Collection(props) {
+function Collection({ isSpring }) {
   const buttonRight = document.getElementsByClassName("collection__right");
   const buttonLeft = document.getElementsByClassName("collection__left");
 
@@ -32,27 +37,27 @@ function Collection(props) {
         <div id="slider" className="collection__slider">
           <img
             className="collection__card-img"
-            src={img1}
+            src={isSpring ? img1 : wint1}
             alt="Wordmark Adjustable Cap Arctic Florals"
           />
           <img
             className="collection__card-img"
-            src={img2}
+            src={isSpring ? img2 : wint2}
             alt="Men's crofton Down Hoody"
           />
           <img
             className="collection__card-img"
-            src={img3}
+            src={isSpring ? img3 : wint3}
             alt="Kitsilano Jacket Arctic Florals"
           />
           <img
             className="collection__card-img"
-            src={img4}
+            src={isSpring ? img4 : wint4}
             alt="Cypress Vest Arctic Florals"
           />
           <img
             className="collection__card-img"
-            src={img5}
+            src={isSpring ? img5 : wint5}
             alt="Muskoka Womens Pants Arctic Florals"
           />
         </div>
