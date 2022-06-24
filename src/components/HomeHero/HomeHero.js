@@ -1,21 +1,20 @@
 import spring from '../../assets/Images/spring.png'
 import winter from '../../assets/Images/winter.png'
 import './HomeHero.scss'
+import heroText from '../../assets/Images/hero-text.png'
 
 function HomeHero({ isSpring }) {
     if(isSpring) {
         return ( 
             <section className="hero hero--spring">
-                <h1 className="hero__heading">HUMANATURE</h1>
-                <h2 className="hero__subheading">Lightweight</h2>
-                <h2 className="hero__subheading">Sustainable</h2>
-                <button className="hero__btn">Shop the Collection</button>
+                <img src={heroText} />
             </section>
         )
     } else {
         return(
             <>
-                <img className='hero hero--winter' src={winter} />
+                <div className="hero hero--winter">
+                </div>            
             </>
         )
     }
