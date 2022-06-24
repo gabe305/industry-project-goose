@@ -1,12 +1,20 @@
 
 
 .hero {
-    background: url(../../assets/Images/spring.png);
     color: white;
     position: relative;
+    height: 576px;
+
+    &--spring {
+        background: url(../../assets/Images/spring.png) no-repeat;
+        width: 100%;
+    }
+
+    &--winter {
+        width: 100%;
+    }
 
     &::before {
-        // content: url(../../assets/Images/snow-fall.jfif);
         position: absolute;
         top: 0;
 
