@@ -1,0 +1,86 @@
+@use "../../partials/colors.scss";
+
+.footer {
+    background-color: colors.$primary-dark;
+    color: colors.$primary-light;
+    padding: 3rem;
+    width: 100%;
+    font-size: 14px;
+    border-bottom: 1px solid colors.$primary-light;
+
+    &__top{
+        display: flex;
+        width: 100%;
+    }
+    &__column{
+        width: 15rem;
+    }
+
+    &__subheader{
+        font-weight: 400;
+    }
+
+    &__text-columns{
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+    }
+
+    &__discover{
+        margin-right: 15%;
+    }
+
+    &__email{
+    height: 5rem;
+    width: 5rem;
+    }
+
+    &__email-input{
+        height: 3rem;
+        width: 10rem;
+    }
+
+    &__email-input::placeholder{
+        color: blue;
+    }
+
+    &__icons{
+        display: flex;
+    }
+
+    &__icon-single{
+        height: 2.25rem;
+        width: 2.25rem;
+        border: 1px solid colors.$primary-light;
+        border-radius: 50%;
+    }
+
+    &__facebook{
+        background: url("../../assets/Icons/facebook-icon.svg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    &__twitter{
+        background: url("../../assets/Icons/twitter-icon.svg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__instagram{
+        background: url("../../assets/Icons/instagram-icon.svg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__youtube{
+        background: url("../../assets/Icons/youtube-icon.svg");
+        background-size:cover;
+        background-position: center;
+    }
+
+    &__feedback-button{
+        border: 1px solid colors.$primary-light;
+        padding: 0.25rem 2rem;
+    }
+}

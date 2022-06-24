@@ -1,0 +1,12 @@
+@use "./partials/fonts" as *;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Neue";
+    font-weight: 400;
+    font-size: 1rem;
+}

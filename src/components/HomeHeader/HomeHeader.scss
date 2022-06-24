@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    
+    &__nav-left {
+
+    }
+
+    &__logo {
+
+    }
+
+    &__nav-right {
+
+    }
+}
+
+.nav-left {
+    &__list {
+        list-style-type: none;
+        display: flex
+    }
+
+    &__link {
+
+    }
+}
+
+.nav-right {
+    &__list {
+        list-style-type: none;
+        display: flex
+    }
+
+    &__link {
+        
+    }
+}
