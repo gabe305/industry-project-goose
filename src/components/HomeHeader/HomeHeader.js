@@ -24,19 +24,19 @@ function HomeHeader({ isSpring, setIsSpring }) {
       <nav className="header__nav-right nav-right box">
         <ul className="nav-right__list">
           <li className="nav-right__link">
-            <img src={ambassador} alt="" className="nav-right__img" />
+            <img src={ambassador} alt="Ambassador" className="nav-right__img" />
             Ambassador
           </li>
           <li className="nav-right__link">
-            <img src={search} alt="" className="nav-right__img" />
+            <img src={search} alt="Search" className="nav-right__img" />
             Search
           </li>
           <li className="nav-right__link">
-            <img src={profile} alt="" className="nav-right__img" />
+            <img src={profile} alt="Profile" className="nav-right__img" />
             Profile
           </li>
           <li className="nav-right__link">
-            <img src={checkout} alt="" className="nav-right__img" />
+            <img src={checkout} alt="Checkout" className="nav-right__img" />
             Checkout
           </li>
         </ul>

@@ -9,14 +9,14 @@ function HomeHero({ isSpring }) {
     if(isSpring) {
         return ( 
             <div className="hero hero__spring">
-                <img src={heroText} />
+                <img src={heroText} alt="Text" />
             </div>
         )
     } else {
         return(
             <>
                 <div className="hero hero__winter">
-                    <img className="hero__winter-btn" src={winterBtn} />
+                    <img className="hero__winter-btn" src={winterBtn} alt="Button for shopping"/>
                 </div>            
             </>
         )
