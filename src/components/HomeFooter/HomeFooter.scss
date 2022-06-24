@@ -56,6 +56,10 @@
     &--img {
       padding-top: 0.2rem;
       padding-left: 0.25rem;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 
@@ -93,6 +97,10 @@
     width: 2.25rem;
     border: 1px solid colors.$primary-light;
     border-radius: 50%;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__facebook {
@@ -126,6 +134,10 @@
   &__feedback-button {
     border: 1px solid colors.$primary-light;
     padding: 0.5rem 2rem;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__bottom {
@@ -143,13 +155,27 @@
   &__copyright {
     display: flex;
     align-items: center;
+    margin-right: 3rem;
   }
 
   &__copy-right-text {
-    margin: auto 0;
     line-height: 0.1rem;
   }
+
   &__links-container {
     display: flex;
+  }
+
+  &__links {
+    padding: 0 1rem;
+    border-right: 1px solid white;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:last-child {
+      border: none;
+    }
   }
 }
