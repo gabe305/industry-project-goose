@@ -7,14 +7,25 @@
     justify-content: center;
     // padding-left: 32px;
 
-    &--spring {
+    &__spring {
         background: url(../../assets/Images/spring.png) no-repeat;
         width: 100%;
     }
 
-    &--winter {
-        background: url(../../assets/Images/winter.png) no-repeat 67% 50%;
+    &__winter {
+        background: url(../../assets/Images/winter.png) no-repeat 55% 50%;
         width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        &-btn {
+            width: 200px;
+            height: 48px;
+            position: relative;
+            top: 171px;
+            left: 138px;
+        }
     }
 
     &::before {
