@@ -1,13 +1,13 @@
 .collection {
   width: 100%;
-  height: 50rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 3rem;
 
   &__carousel {
     width: 100%;
-    height: 50rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -45,6 +45,11 @@
   }
 
   &__card-img {
-    margin-right: 3rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  &__subheader {
+    margin: 3rem 0;
   }
 }

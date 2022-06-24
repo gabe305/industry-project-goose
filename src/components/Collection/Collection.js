@@ -13,15 +13,16 @@ function Collection(props) {
 
   buttonRight.onclick = function () {
     const slider = document.getElementsByClassName("collection__slider");
-    slider[0].scrollLeft = slider[0].scrollLeft - 200;
+    slider[0].scrollLeft = slider[0].scrollLeft - 1000;
   };
   buttonLeft.onclick = function () {
     const slider = document.getElementsByClassName("collection__slider");
-    slider[0].scrollLeft = slider[0].scrollLeft + 200;
+    slider[0].scrollLeft = slider[0].scrollLeft + 1000;
   };
 
   return (
     <div className="collection">
+      <h1 className="collection__subheader">Spring Collection</h1>
       <div className="collection__carousel">
         <MdChevronLeft
           size={40}
