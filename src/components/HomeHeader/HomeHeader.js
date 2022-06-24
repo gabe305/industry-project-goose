@@ -11,10 +11,10 @@ function HomeHeader({ isSpring, setIsSpring }) {
         <header className='header'>
             <nav className='header__nav-left nav-left'>
                 <ul className='nav-left__list'>
-                    <li className="nav-left__link">Women</li>
-                    <li className="nav-left__link">Men</li>
-                    <li className="nav-left__link">Kids</li>
-                    <li className="nav-left__link">Humanature</li>
+                    <li className="nav-left__link">WOMEN</li>
+                    <li className="nav-left__link">MEN</li>
+                    <li className="nav-left__link">KIDS</li>
+                    <li className="nav-left__link">HUMANATURE</li>
                 </ul>
             </nav>
             <div className="header__center">

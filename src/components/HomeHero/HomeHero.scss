@@ -1,9 +1,11 @@
-
-
 .hero {
     color: white;
     position: relative;
     height: 576px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 32px;
 
     &--spring {
         background: url(../../assets/Images/spring.png) no-repeat;
@@ -17,8 +19,8 @@
     &::before {
         position: absolute;
         top: 0;
-
     }
+
     &__heading {
 
     }
