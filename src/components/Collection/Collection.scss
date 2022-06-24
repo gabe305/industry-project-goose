@@ -47,9 +47,14 @@
   &__card-img {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__subheader {
     margin: 3rem 0;
+    font-weight: 500;
   }
 }
