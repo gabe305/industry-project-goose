@@ -73,24 +73,3 @@ function Collection({ isSpring }) {
 
 export default Collection;
 
-{
-  /* // <button className="collection__button collection__prev"></button>
-// <button className="collection__button collection__next"></button>
-// <ul>
-//   <li className="collection__slide">
-//     <img src={img1} alt="Wordmark Adjustable Cap Arctic Florals" />
-//   </li>
-//   <li className="collection__slide">
-//     <img src={img2} alt="Men's crofton Down Hoody" />
-//   </li>
-//   <li className="collection__slide">
-//     <img src={img3} alt="Kitsilano Jacket Arctic Florals" />
-//   </li>
-//   <li className="collection__slide">
-//     <img src={img4} alt="Cypress Vest Arctic Florals" />
-//   </li>
-//   <li className="collection__slide">
-//     <img src={img5} alt="Muskoka Womens Pants Arctic Florals" />
-//   </li>
-// </ul> */
-}
