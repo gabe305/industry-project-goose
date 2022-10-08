@@ -16,7 +16,7 @@ function HomeHero({ isSpring }) {
     } else {
         return(
             <>
-                <img className='hero hero--winter' src={winter} alt="winter image"/>
+                <img className='hero hero--winter' src={winter} alt="winter"/>
             </>
         )
     }
