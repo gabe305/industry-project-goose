@@ -1,61 +1,94 @@
+@use "../../partials/fonts" as *;
+
 .header {
+  display: flex;
+  width: 90%;
+  margin-inline: auto;
+  align-items: center;
+  margin-top: 1.5rem;
+
+  &__nav-left {
+    flex-grow: 1;
+  }
+
+  &__center {
     display: flex;
-    width: 90%;
-    margin-inline: auto;
+    flex-direction: column;
     align-items: center;
-    
-    &__nav-left {
-        flex-grow: 1;
-    }
+    flex-grow: 1;
+  }
 
-    &__center {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-grow: 1;
-    }
+  &__logo {
+    width: 320px;
+    height: 40px;
+  }
 
-    &__logo {
-        width: 600px;
-    }
-
-    &__nav-right {
-        flex-grow: 1;
-    }
+  &__nav-right {
+    flex-grow: 1;
+  }
 }
 
 .nav-left {
-    &__list {
-        width: 150px;
-        list-style-type: none;
-        display: flex;
-        margin: 0;
-        padding: 0;
-        flex-wrap: wrap;
-    }
-
-    &__link {
-
-    }
+  &__list {
+    width: 180px;
+    height: 60px;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 700;
+  }
 }
 
 .nav-right {
-    
-    &__list {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-evenly;
-        padding: 0;
-        margin: 0;
-    }
+  &__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+  }
 
-    &__img {
-        width: 20px;
-    }
+  &__img {
+    width: 20px;
+  }
 
-    &__link {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  &__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin-left: 1.5rem;
+
+    &:hover {
+      cursor: pointer;
     }
+  }
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.box:first-child > nav {
+  margin-right: auto;
+}
+.box:last-child > nav {
+  margin-left: auto;
+}
+
+.header__nav-left {
+  justify-content: flex-start;
+}
+
+.header__nav-right {
+  justify-content: flex-end;
 }
