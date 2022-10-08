@@ -1,5 +1,5 @@
 // import spring from '../../assets/Images/spring.png'
-import winter from '../../assets/Images/winter.png'
+// import winter from '../../assets/Images/winter.png'
 import './HomeHero.scss'
 import heroText from '../../assets/Images/hero-text.png'
 import winterBtn from '../../assets/Images/winter-btn.png'

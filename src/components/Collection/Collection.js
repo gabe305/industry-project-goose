@@ -32,7 +32,7 @@ function Collection({ isSpring }) {
         <MdChevronLeft
           size={40}
           className="collection__button collection__left"
-          onClick={buttonLeft.onclick}
+          onClick={buttonRight.onclick}
         />
         <div id="slider" className="collection__slider">
           <img
@@ -64,7 +64,7 @@ function Collection({ isSpring }) {
         <MdChevronRight
           size={40}
           className="collection__button collection__right"
-          onClick={buttonRight.onclick}
+          onClick={buttonLeft.onclick}
         />
       </div>
     </div>
