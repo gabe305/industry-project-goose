@@ -1,4 +1,4 @@
-import spring from '../../assets/Images/spring.png'
+// import spring from '../../assets/Images/spring.png'
 import winter from '../../assets/Images/winter.png'
 import './HomeHero.scss'
 
@@ -16,7 +16,7 @@ function HomeHero({ isSpring }) {
     } else {
         return(
             <>
-                <img className='hero hero--winter' src={winter} />
+                <img className='hero hero--winter' src={winter} alt="winter image"/>
             </>
         )
     }

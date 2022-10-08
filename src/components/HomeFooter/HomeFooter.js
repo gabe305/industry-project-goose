@@ -89,7 +89,7 @@ function Footer() {
       <div className="footer__bottom">
         <div className="footer__bottom-container">
           <div className="footer__copyright">
-            <img src={logoCircle} alt="logo image" />
+            <img src={logoCircle} alt="canada goose" />
             <p className="footer__copyright-text">
               Copyright 2022 Canada Goose Inc.
             </p>
